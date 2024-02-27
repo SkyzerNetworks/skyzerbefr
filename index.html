@@ -1,0 +1,83 @@
+<!-- HTML Code File -->
+
+<!-- File Information -->
+
+<!-- (START)
+
+Date Created - 2 / 27 / 2024
+Version - 0.00.00 (Startup)
+Author - Michael
+Company - SkyzerNetworks
+Source Code - https://github.com/SkyzerNetworks/SkyzerNetworks.github.io/skyzerbefr
+
+(END) --> 
+
+<!DOCTYPE html>
+
+<html lang="en"> <!-- Page Language -->
+
+  <!-- [Settings] The settings and descriptions of the website -->
+  <!-- Viewport data and page title with author and description -->
+  <!-- Sets icon for the page tab and sets the stylesheet of the file -->
+  <head>
+
+    <meta charset="UTF-8"> <!-- Sets Charset -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets a viewport for device compatibility -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Sets the header compatiblity for http requests -->
+    
+    <title>| Twitch Info</title> <!-- Title of the page / tab -->
+
+    <link rel="stylesheet" href="/style.css"> <!-- Sets the CSS / Style file for the page -->
+    <link rel="icon" href="/images/Twitchpfp.png" type="image/png"> <!-- Sets the tab to the company / group logo -->
+    
+    <meta name="description" content="This is my personal profile for my Twitch account SkyzerBeFr.  Information about schedules, events and updates can be on the page!"> <!-- The description of the website -->
+    <meta name="author" content="Michael"> <!-- The orginal author of the code / file -->
+
+    <meta property="og:title" content="Twitch Profile"> <!-- Lines 36 to 39 are the orginal properties of the sites information -->
+    <meta property="og:description" content="This is my personal profile for my Twitch account SkyzerBeFr.  Information about schedules, events and updates can be on the page!">
+    <meta property="og:image" content="https://skyzernetworks.github.io/skyzerbefr/images/Twitchpfp.png">
+    <meta property="og:url" content="https://skyzernetworks.github.io/skyzerbefr">
+    
+  </head>
+
+  <body>
+
+    <div id="page-container">
+
+      <div id="display-holder">
+
+        <header id="top-banner">
+
+          <div id="pfp-holder"><img src="/images/Twitchpfp.png"></div>
+
+          <div id="title-holder"><h1>SkyzerBeFr</h1></div>
+
+          <div id="twitch-button_holder"> <button onclick="twitchProfile()"><img src="/images/Twitch Logo.png"> Twitch Profile</button> </div>
+
+        </header>
+
+        <nav id="socials-banner">
+
+          <button class="socials-button"><img src="/images/logo-YouTube.jpg">YouTube</button>
+          
+          <button class="socials-button"><img src="/images/instalogo.jfif">Instagram</button>
+          
+          <button class="socials-button"><img src="/images/xlogo.jpg">Twitter / X</button>
+          
+        </nav>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
+
+<script>
+
+  function twitchProfile() {
+    window.location = "http://www.twitch.tv/skyzerbefr";
+  }
+
+</script>
