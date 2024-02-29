@@ -148,22 +148,53 @@ body {
 /* Social Media Banner */
 
 #socials-banner {
-    width: 100vw;
-    height: 10vh;
     background-color: black;
+    width: 100%;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    gap: 2vw;
+    border-bottom: 1px solid white;
 }
 
-.socials-button {
-    width: 14vw;
+.button-container {
+    width: 15vw;
     height: 8vh;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
 }
 
-.socials-button img {
-    width: 4vw;
-    height: 4vw;
+.button-text {
+    font-size: 1.3vw;
+    color: white;
+    text-shadow: 0 0 30px rgb(111, 0, 255);
+    padding: 10px;
+    width: 8vw;
+    background-image: linear-gradient(to top, black, rgb(89, 0, 255));
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.button-text:hover {
+    font-size: 1.4vw;
+}
+
+.button-text:active {
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(78, 78, 78));
+}
+
+#socials-banner img {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 100vw;
+    border: .2vw solid white;
+    box-shadow: 0 0 30px rgb(76, 0, 255);
 }
